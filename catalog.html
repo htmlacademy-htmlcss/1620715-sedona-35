@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Каталог</title>
 </head>
-<body>
+<header>
+<!-- <header>  -->
+
   <header class="page-header">
     <div class="wrapper">
       <div class="header-logo">
@@ -49,6 +51,8 @@
 </div>
 </header>
 
+<!-- </header> -->
+<!-- <main> -->
 <main class="inner">
   <header class="inner-header">
     <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -103,6 +107,12 @@
           </li>
           </ul>
         </fieldset>
+        <p class="price">Стоимость, ₽:</p>
+        <label class="price">
+          <input type="number" class="price-pange" name="price-pange" placeholder="от" value="0" required id="price-pange">
+          <input type="number" class="price-pange" name="price-pange" placeholder="до" value="9000" required id="price-pange">
+          <input type="range" min="0" max="9000" step="1000"  name="price_minmax">
+        </label>
         <button type="submit">Применить</button>
         <button type="reset">Сбросить</button>
       </form>
@@ -218,6 +228,8 @@
 </section>
 </main>
 
+<!-- </main> -->
+<!-- <footer> -->
 
     <footer class="page-footer">
     </section>
@@ -254,5 +266,6 @@
     <a class="htmlacademy-link" target="_blank" href="https://htmlacademy.ru/"><img src="#" alt="Логотип html Academy"></a>
     </section>
     </footer>
+    <!-- </footer> -->
 </body>
 </html>
