@@ -10,14 +10,17 @@
   <body>
     <header class="page-header">
       <a class="header-logo-link" href="index.html">
-        <img src="img/logo.svg" alt="Логотип сайта" >
+        <img
+          src="img/header-logo.svg"
+          width="138"
+          height="64"
+          alt="Логотип сайта.">
       </a>
       <nav class="navigation">
         <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link navigation-link-current" href="index.html"
-              >Главная</a
-            >
+              >Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О седоне</a>
@@ -29,11 +32,9 @@
       </nav>
       <div class="header-navigation-user">
         <a class="header-link" href="#">
-          <span class="visually-hidden">Поиск.</span></a
-        >
+          <span class="visually-hidden">Поиск.</span></a>
         <a class="header-link" href="#">
-          <span class="visually-hidden">Понравившиеся гостиницы.</span></a
-        >
+          <span class="visually-hidden">Понравившиеся гостиницы.</span></a>
         <a class="header-link" href="#">Хочу сюда!</a>
       </div>
     </header>
@@ -42,8 +43,9 @@
       <ul class="breadcrumbs">
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link" href="index.html"
-            ><img src="#" alt="Контур домика"
-          ></a>
+            ><span class="visually-hidden"
+              >Переход на главную страницу.</span
+            ></a>
         </li>
         <li class="breadcrumbs-item">
           <a class="breadcrumbs-link">Гостиницы</a>
@@ -55,8 +57,7 @@
           <form
             class="catalog-filter"
             action="https://echo.htmlacademy.ru/"
-            method="get"
-          >
+            method="get">
             <fieldset class="catalog-filter-group">
               <legend class="catalog-filter-title">Инфраструктура:</legend>
               <ul class="catalog-filter-list">
@@ -137,8 +138,7 @@
                   class="price-range"
                   type="number"
                   name="price-range-min"
-                  value="0"
-                >
+                  value="0">
                 <span class="price-range-button">от</span>
               </label>
               <label class="price">
@@ -146,8 +146,7 @@
                   class="price-range"
                   type="number"
                   name="price-range-max"
-                  value="9000"
-                >
+                  value="9000">
                 <span class="price-range-button">до</span>
               </label>
               <div class="catalog-filter-range">
@@ -199,11 +198,10 @@
             <a class="product-card-link" href="#">
               <img
                 class="product-card-image"
-                src="img/hotel-1.jpg"
+                src="img/hotel-amara-resort-spa.jpg"
                 width="300"
                 height="212"
-                alt="Звездное небо, просматриваемое между скалами."
-              >
+                alt="Звездное небо, просматриваемое между скалами.">
               <h3 class="product-card-title">Amara Resort & Spa</h3>
             </a>
             <span class="product-card-prise">Гостиница</span>
@@ -217,11 +215,10 @@
             <a class="product-card-link" href="#">
               <img
                 class="product-card-image"
-                src="img/hotel-2.jpg"
+                src="img/hotel-villas-at-poco-diablo.jpg"
                 width="300"
                 height="212"
-                alt="Скалы на фоне облачного неба и двойной радуги."
-              >
+                alt="Скалы на фоне облачного неба и двойной радуги.">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
             <span class="product-card-prise">Гостиница</span>
@@ -235,11 +232,10 @@
             <a class="product-card-link" href="#">
               <img
                 class="product-card-image"
-                src="img/hotel-3.jpg"
+                src="img/hotel-desert-quail-Inn.jpg"
                 width="300"
                 height="212"
-                alt="Скалы с зеленой растительностью у подножия, на фоне голубого неба."
-              >
+                alt="Скалы с зеленой растительностью у подножия, на фоне голубого неба.">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
             <span class="product-card-prise">Гостиница</span>
@@ -253,11 +249,10 @@
             <a class="product-card-link" href="#">
               <img
                 class="product-card-image"
-                src="img/hotel-4.jpg"
+                src="img/hotel-greenTree-inn.jpg"
                 width="300"
                 height="212"
-                alt="Скалы на фоне звездного неба."
-              >
+                alt="Скалы на фоне звездного неба.">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <span class="product-card-prise">Гостиница</span>
@@ -283,8 +278,7 @@
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-next">
-              <span class="visually-hidden">Следующая страница.</span>...</a
-            >
+              <span class="visually-hidden">Следующая страница.</span>...</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-current">10</a>
@@ -299,16 +293,14 @@
         <form
           class="subscription-form"
           action="https://echo.htmlacademy.ru/"
-          method="post"
-        >
+          method="post">
           <label>
             <input
               class="subscription-email"
               type="email"
               name="subscription-email"
               placeholder="Ваш e-mail"
-              value=""
-            >
+              value="">
             <span class="visually-hidden">Введите ваш email.</span>
           </label>
           <button class="subscription-button" type="submit">Подписаться</button>
@@ -320,7 +312,10 @@
       <h2 class="visually-hidden">Наши социальные сети.</h2>
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="social-button" target="_blank" href="https://vk.com/htmlacademy">
+          <a
+            class="social-button"
+            target="_blank"
+            href="https://vk.com/htmlacademy">
             <span class="visually-hidden">ВКонтакте.</span>
           </a>
         </li>
@@ -328,8 +323,7 @@
           <a
             class="social-button"
             target="_blank"
-            href="tg://https://t.me/htmlacademy"
-          >
+            href="tg://https://t.me/htmlacademy">
             <span class="visually-hidden">Телеграм.</span>
           </a>
         </li>
@@ -337,17 +331,15 @@
           <a
             class="social-button"
             target="_blank"
-            href="https://www.youtube.com/user/htmlacademyru"
-          >
+            href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">YouTube.</span>
           </a>
         </li>
       </ul>
       <h2 class="visually-hidden">Наши контакты.</h2>
       <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      <a class="htmlacademy-link" target="_blank" href="https://htmlacademy.ru/"
-        ><img src="#" alt="Логотип html Academy"
-      ></a>
+      <a class="htmlacademy-link" target="_blank" href="https://htmlacademy.ru/">
+      </a>
     </footer>
   </body>
 </html>
