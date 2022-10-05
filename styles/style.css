@@ -1,0 +1,249 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+.wrapper {
+  max-width: 1200px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+main {
+  flex: 1 1 auto;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* index */
+
+.intro {
+  background-image: url("../img/index-intro-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #000000;
+}
+.advantages {
+  display: grid;
+  text-align: center;
+}
+.advantages-head-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.advantages-head-discription {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.advantages-item {
+  background: rgba(131, 179, 211, 0.12);
+}
+.advantages-item-mods {
+  background: rgba(131, 179, 211, 0.2);
+}
+.advantages-item-unique,
+.advantages-unique {
+  color: #ffffff;
+  background: #82b3d3;
+}
+
+.appointment {
+  text-align: center;
+  font-weight: 700;
+}
+.appointment-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.appointment-sentence {
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.appointment-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #756157;
+  text-decoration: none;
+}
+.subscription {
+  background-image: url("../img/subscribe-background.jpg");
+  height: 415px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #000000;
+  background-size: 100% auto;
+}
+
+.subscription-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.social-button {
+  color: #83b3d3;
+}
+
+.contacts-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* catalog */
+
+.intro-inner {
+  background-image: url(../img/catalog-filter-background.jpg);
+  background-repeat: no-repeat;
+  color: #ffffff;
+  background-color: #000000;
+}
+.breadcrumbs-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.catalog-filter-controls {
+  text-transform: uppercase;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.control-input {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+.submit-button,
+.reset-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.submit-button {
+  background-color: #82b3d3;
+}
+.reset-button {
+  background-color: rgba(28, 28, 28, 0);
+}
+
+.sort {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.product-card-link {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.procuct-kard-info,
+.product-card-like {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.procuct-kard-info {
+  background-color: #756157;
+}
+.product-card-like {
+  background-color: #82b3d3;
+}
+.product-card-like-checked {
+  background-color: #7db54f;
+}
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+.subscription-catalog {
+  height: 415px;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  background-size: 100% auto;
+}

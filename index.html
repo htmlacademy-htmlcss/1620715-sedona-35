@@ -4,9 +4,11 @@
     <meta charset="utf-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
+    <div class="wrapper">
     <header class="page-header">
       <a class="header-logo-link">
         <img
@@ -55,8 +57,8 @@
           Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
         </p>
         <h2 class="visually-hidden">Преимущества.</h2>
-        <div class="advantages-item">
-          <h3 class="advantages-title">Настоящий городок</h3>
+        <div class="advantages-item-unique">
+          <h3 class="advantages-title advantages-unique">Настоящий городок</h3>
           <p class="advantages-discription">
             Седона — не аттракцион для туристов, там течёт своя жизнь
           </p>
@@ -74,7 +76,7 @@
               Все достопримечательности находятся очень близко
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-mods">
             <h3 class="advantages-title">Красивая дорога</h3>
             <p class="advantages-discription">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
@@ -87,20 +89,20 @@
             </p>
           </li>
         </ul>
-        <div class="advantages-item">
+        <div class="advantages-item-unique">
           <img
             class="advantages-item image"
             src="img/index-advantages-bridge.jpg"
             width="800"
             height="384"
             alt="Сотворенный природой каменный мост.">
-          <h3 class="advantages-title">Там есть мост дьявола</h3>
+          <h3 class="advantages-title advantages-unique">Там есть мост дьявола</h3>
           <p class="advantages-discription">
             Да, по нему можно пройти! Если вы осмелитесь, разумеется
           </p>
         </div>
         <ul class="advantages-list">
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-mods">
             <h3 class="advantages-title">Жильё</h3>
             <p class="advantages-discription">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
@@ -112,7 +114,7 @@
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages-item advantages-item-mods">
             <h3 class="advantages-title">Сувениры</h3>
             <p class="advantages-discription">
               Не только китайского, но и настоящего местного производства!
@@ -121,12 +123,12 @@
         </ul>
       </section>
       <section class="appointment">
-        <h2>Заинтересовались?</h2>
-        <p>
+        <h2 class="appointment-title">Заинтересовались?</h2>
+        <p class="appointment-sentence">
           Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне
         </p>
-        <a class="button" href="#"> Поиск гостинницы в Седоне</a>
+        <a class="appointment-button" href="#"> Поиск гостинницы в Седоне</a>
       </section>
 
       <section class="subscription">
@@ -135,7 +137,7 @@
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form
-          class="subscription"
+          class="subscription-form"
           action="https://echo.htmlacademy.ru/"
           method="post">
           <label>
@@ -182,5 +184,6 @@
       <a class="htmlacademy-link" target="_blank" href="https://htmlacademy.ru/">
       </a>
     </footer>
+  </div>
   </body>
 </html>
