@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8" >
+    <meta charset="utf-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Каталог</title>
@@ -10,36 +10,36 @@
 
   <body>
     <div class="wrapper">
-    <header class="page-header">
-      <a class="header-logo-link" href="index.html">
-        <img
-          src="img/header-logo.svg"
-          width="138"
-          height="64"
-          alt="Логотип сайта.">
-      </a>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html"
-              >Главная</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">О седоне</a>
-          </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Гостиницы</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header-navigation-user">
-        <a class="header-link" href="#">
-          <span class="visually-hidden">Поиск.</span></a>
-        <a class="header-link" href="#">
-          <span class="visually-hidden">Понравившиеся гостиницы.</span></a>
-        <a class="header-link" href="#">Хочу сюда!</a>
-      </div>
-    </header>
+      <header class="page-header">
+        <a class="header-logo-link" href="index.html">
+          <img
+            src="img/header-logo.svg"
+            width="138"
+            height="64"
+            alt="Логотип сайта.">
+        </a>
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-current" href="index.html"
+                >Главная</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">О седоне</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-navigation-user">
+          <a class="header-link-search" href="#">
+            <span class="visually-hidden">Поиск.</span></a>
+          <a class="header-link-like" href="#">
+            <span class="visually-hidden">Корзина.</span></a>
+          <a class="header-link-want" href="#">Хочу сюда!</a>
+        </div>
+      </header>
     <main class="inner">
       <div class="intro-inner">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
@@ -210,7 +210,7 @@
             </a>
             <span class="product-card-prise">Гостиница</span>
             <span class="product-card-prise">От 4000 ₽</span>
-            <a class="procuct-kard-info" href="#">подробнее</a>
+            <a class="product-card-info" href="#">подробнее</a>
             <a class="product-card-like" href="#">в избранное</a>
             <div class="rating-star"></div>
             <span class="rating">Рейтинг: 8,5</span>
@@ -227,7 +227,7 @@
             </a>
             <span class="product-card-prise">Гостиница</span>
             <span class="product-card-prise">От 5000 ₽</span>
-            <a class="procuct-kard-info" href="#">подробнее</a>
+            <a class="product-card-info" href="#">подробнее</a>
             <a class="product-card-like product-card-like-checked " href="#">в избранном</a>
             <div class="rating-star"></div>
             <span class="rating">Рейтинг: 9,2</span>
@@ -244,7 +244,7 @@
             </a>
             <span class="product-card-prise">Гостиница</span>
             <span class="product-card-prise">От 2500 ₽</span>
-            <a class="procuct-kard-info" href="#">подробнее</a>
+            <a class="product-card-info" href="#">подробнее</a>
             <a class="product-card-like" href="#">в избранное</a>
             <div class="rating-star"></div>
             <span class="rating">Рейтинг: 6,9</span>
@@ -261,7 +261,7 @@
             </a>
             <span class="product-card-prise">Гостиница</span>
             <span class="product-card-prise">От 1500 ₽</span>
-            <a class="procuct-kard-info" href="#">подробнее</a>
+            <a class="product-card-info" href="#">подробнее</a>
             <a class="product-card-like" href="#">в избранное</a>
             <div class="rating-star"></div>
             <span class="rating">Рейтинг: 5,0</span>
@@ -290,8 +290,8 @@
         </ul>
       </section>
       <section class="subscription-catalog">
-        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
-        <p>
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <p class="subscription-description">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form

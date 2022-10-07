@@ -32,11 +32,11 @@
         </ul>
       </nav>
       <div class="header-navigation-user">
-        <a class="header-link" href="#">
+        <a class="header-link-search" href="#">
           <span class="visually-hidden">Поиск.</span></a>
-        <a class="header-link" href="#">
+        <a class="header-link-like" href="#">
           <span class="visually-hidden">Корзина.</span></a>
-        <a class="header-link" href="#">Хочу сюда!</a>
+        <a class="header-link-want" href="#">Хочу сюда!</a>
       </div>
     </header>
     <main class="main-index">
@@ -53,17 +53,19 @@
         <h2 class="advantages-head-title">
           Седона — небольшой городок в Аризоне,заслуживающий большего!
         </h2>
-        <p class="advantages-head-discription">
+        <p class="advantages-head-description">
           Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
         </p>
         <h2 class="visually-hidden">Преимущества.</h2>
-        <div class="advantages-item-unique">
-          <h3 class="advantages-title advantages-unique">Настоящий городок</h3>
-          <p class="advantages-discription">
+        <div class="advantages-card">
+          <div class="advantages-card-content">
+          <h3 class="advantages-card-title">Настоящий городок</h3>
+          <p class="advantages-card-description">
             Седона — не аттракцион для туристов, там течёт своя жизнь
           </p>
+        </div>
           <img
-            class="advantages-item image"
+            class="advantages-item-image"
             src="img/index-advantages-sity.jpg"
             width="800"
             height="384"
@@ -72,51 +74,53 @@
         <ul class="advantages-list">
           <li class="advantages-item">
             <h3 class="advantages-title">Небольшая площадь</h3>
-            <p class="advantages-discription">
+            <p class="advantages-description">
               Все достопримечательности находятся очень близко
             </p>
           </li>
           <li class="advantages-item advantages-item-mods">
             <h3 class="advantages-title">Красивая дорога</h3>
-            <p class="advantages-discription">
+            <p class="advantages-description">
               Ехать в Седону из Лас-Вегаса совсем не скучно!
             </p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Мало туристов</h3>
-            <p class="advantages-discription">
+            <p class="advantages-description">
               Большинство едет в Гранд Каньон и толпится там
             </p>
           </li>
         </ul>
-        <div class="advantages-item-unique">
+        <div class="advantages-card">
           <img
-            class="advantages-item image"
+            class="advantages-item-image"
             src="img/index-advantages-bridge.jpg"
             width="800"
             height="384"
             alt="Сотворенный природой каменный мост.">
-          <h3 class="advantages-title advantages-unique">Там есть мост дьявола</h3>
-          <p class="advantages-discription">
+          <div class="advantages-card-content">
+          <h3 class="advantages-card-title">Там есть мост дьявола</h3>
+          <p class="advantages-card-description">
             Да, по нему можно пройти! Если вы осмелитесь, разумеется
           </p>
+          </div>
         </div>
-        <ul class="advantages-list">
-          <li class="advantages-item advantages-item-mods">
+        <ul class="advantages-list advantages-list-modify">
+          <li class="advantages-item">
             <h3 class="advantages-title">Жильё</h3>
-            <p class="advantages-discription">
+            <p class="advantages-description">
               Рекомендуем пожить в настоящем мотеле, всё как в кино!
             </p>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-title">Еда</h3>
-            <p class="advantages-discription">
+            <p class="advantages-description">
               Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!
             </p>
           </li>
           <li class="advantages-item advantages-item-mods">
             <h3 class="advantages-title">Сувениры</h3>
-            <p class="advantages-discription">
+            <p class="advantages-description">
               Не только китайского, но и настоящего местного производства!
             </p>
           </li>
@@ -132,8 +136,8 @@
       </section>
 
       <section class="subscription">
-        <h2>Подпишитесь на рассылку</h2>
-        <p>
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+        <p class="subscription-description">
           Только полезная информация и никакого спама, честное бойскаутское!
         </p>
         <form
