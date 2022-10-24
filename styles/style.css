@@ -421,6 +421,7 @@ body {
   display: flex;
   margin: 0 0 40px 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs-link-house {
@@ -466,6 +467,7 @@ body {
   border: none;
   margin: 0 70px 0 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .range {
@@ -523,6 +525,7 @@ position: relative;
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap;
 }
 
 .mode-tile {
@@ -612,7 +615,7 @@ position: relative;
 
 .product-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 340px);
   column-gap: 20px;
   row-gap: 20px;
   list-style: none;
@@ -622,7 +625,6 @@ position: relative;
 
 .product-card {
   padding: 20px;
-  width: 340px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
 }
@@ -636,11 +638,13 @@ position: relative;
 
 .product-card-image {
   margin: 0 0 16px 0;
+  object-fit: cover;
 }
 
 .product-card-title {
   margin: 0 0 16px 0;
   padding: 0;
+  word-break: break-word;
 }
 
 .product-card-link {
@@ -689,8 +693,13 @@ position: relative;
   text-align: center;
 }
 
+.product-card-type {
+  word-break: break-word;
+}
+
 .product-card-price {
   justify-self: end;
+  word-break: break-word;
 }
 
 .subscription-catalog {
