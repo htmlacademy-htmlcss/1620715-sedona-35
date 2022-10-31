@@ -14,8 +14,8 @@
         <a class="header-logo-link" href="index.html">
           <img
             src="img/header-logo.svg"
-            width="138"
-            height="64"
+            width="140"
+            height="70"
             alt="Логотип сайта."
           />
         </a>
@@ -55,8 +55,8 @@
                   >Переход на главную страницу.</span
                 >
                 <svg
-                aria-hidden="true"
-                focusable="false"
+                  aria-hidden="true"
+                  focusable="false"
                   xmlns="http://www.w3.org/2000/svg"
                   width="13"
                   height="13"
@@ -88,33 +88,39 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="control-input"
+                        class="visually-hidden control-input"
                         type="checkbox"
                         checked
                         name="infrastructure"
                         value="Бассейн"
-                      />Бассейн
+                      />
+                      <span class="control-mark"></span>
+                      <span class="control-label">Бассейн</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="control-input"
+                        class="visually-hidden control-input"
                         type="checkbox"
                         checked
                         name="infrastructure"
                         value="Парковка"
-                      />Парковка
+                      />
+                      <span class="control-mark"></span>
+                      <span class="control-label">Парковка</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="control-input"
+                        class="visually-hidden control-input"
                         type="checkbox"
                         name="infrastructure"
                         value="Парковка"
-                      />Wi-Fi
+                      />
+                      <span class="control-mark"></span>
+                      <span class="control-label">Wi-fi</span>
                     </label>
                   </li>
                 </ul>
@@ -125,32 +131,38 @@
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="control-input"
+                        class="visually-hidden control-input"
                         type="radio"
                         name="type-group"
                         checked
                         value="Гостиница"
-                      />Гостиница
+                      />
+                      <span class="control-mark"></span>
+                      <span class="control-label">Гостиница</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="control-input"
+                        class="visually-hidden control-input"
                         type="radio"
                         name="type-group"
                         value="Мотель"
-                      />Мотель
+                      />
+                      <span class="control-mark"></span>
+                      <span class="control-label">Мотель</span>
                     </label>
                   </li>
                   <li class="catalog-filter-item">
                     <label class="control">
                       <input
-                        class="control-input"
+                        class="visually-hidden control-input"
                         type="radio"
                         name="type-group"
                         value="Апартаменты"
-                      />Апартаменты
+                      />
+                      <span class="control-mark"></span>
+                      <span class="control-label">Апартаменты</span>
                     </label>
                   </li>
                 </ul>
@@ -158,32 +170,40 @@
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                 <div class="range">
-                  <label class="price">
-                    <input
-                      class="price-range"
-                      type="number"
-                      name="price-range-min"
-                      value="0"
-                    />
-                    <span class="price-range-button">от</span>
-                  </label>
-                  <label class="price">
-                    <input
-                      class="price-range"
-                      type="number"
-                      name="price-range-max"
-                      value="9000"
-                    />
-                    <span class="price-range-button">до</span>
-                  </label>
-                </div>
-                <div class="catalog-filter-range">
-                  <button class="slider-button" type="button">
-                    <span class="visually-hidden">Минимальная стоимость.</span>
-                  </button>
-                  <button class="slider-button" type="button">
-                    <span class="visually-hidden">Максимальная стоимость.</span>
-                  </button>
+                  <div class="range-wrapper-inputs">
+                    <label class="price">
+                      <input
+                        class="price-range price-range-min"
+                        type="number"
+                        name="price-range-min"
+                        value="0"
+                      />
+                      <span class="price-range-button">от</span>
+                    </label>
+                    <label class="price">
+                      <input
+                        class="price-range price-range-max"
+                        type="number"
+                        name="price-range-max"
+                        value="9000"
+                      />
+                      <span class="price-range-button">до</span>
+                    </label>
+                  </div>
+                  <div class="range-scale">
+                    <div class="range-bar" style="left: 0; width: 206px">
+                      <button class="range-toggle toggle-min" type="button">
+                        <span class="visually-hidden"
+                          >Минимальная стоимость.</span
+                        >
+                      </button>
+                      <button class="range-toggle toggle-max" type="button">
+                        <span class="visually-hidden"
+                          >Максимальная стоимость.</span
+                        >
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </fieldset>
               <div class="catalog-filter-controls">
@@ -306,7 +326,7 @@
                   <span class="product-card-price">От 4000 ₽</span>
                   <a class="product-card-info" href="#">подробнее</a>
                   <a class="product-card-like" href="#">в избранное</a>
-                  <div class="rating-star"></div>
+                  <div class="rating-star rating-four-star"></div>
                   <span class="rating">Рейтинг: 8,5</span>
                 </div>
               </li>
@@ -330,7 +350,7 @@
                     href="#"
                     >в избранном</a
                   >
-                  <div class="rating-star"></div>
+                  <div class="rating-star rating-four-star"></div>
                   <span class="rating">Рейтинг: 9,2</span>
                 </div>
               </li>
@@ -350,7 +370,7 @@
                   <span class="product-card-price">От 2500 ₽</span>
                   <a class="product-card-info" href="#">подробнее</a>
                   <a class="product-card-like" href="#">в избранное</a>
-                  <div class="rating-star"></div>
+                  <div class="rating-star rating-three-star"></div>
                   <span class="rating">Рейтинг: 6,9</span>
                 </div>
               </li>
@@ -370,23 +390,29 @@
                   <span class="product-card-price">От 1500 ₽</span>
                   <a class="product-card-info" href="#">подробнее</a>
                   <a class="product-card-like" href="#">в избранное</a>
-                  <div class="rating-star"></div>
+                  <div class="rating-star rating-two-star"></div>
                   <span class="rating">Рейтинг: 5,0</span>
                 </div>
               </li>
             </ul>
             <ul class="pagination">
               <li class="pagination-item">
-                <a class="pagination-link pagination-current" href="#">1</a>
+                <a class="pagination-link pagination-current">1</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-link" href="#">2</a>
+                <a class="pagination-link pagination-link-inactive" href="#"
+                  >2</a
+                >
               </li>
               <li class="pagination-item">
-                <a class="pagination-link" href="#">3</a>
+                <a class="pagination-link pagination-link-inactive" href="#"
+                  >3</a
+                >
               </li>
               <li class="pagination-item">
-                <a class="pagination-link" href="#">4</a>
+                <a class="pagination-link pagination-link-inactive" href="#"
+                  >4</a
+                >
               </li>
               <li class="pagination-item">
                 <span class="pagination-link pagination-more">
@@ -395,7 +421,9 @@
                 >
               </li>
               <li class="pagination-item">
-                <a class="pagination-link" href="#">10</a>
+                <a class="pagination-link pagination-link-inactive" href="#"
+                  >10</a
+                >
               </li>
             </ul>
           </section>
