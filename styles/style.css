@@ -373,11 +373,11 @@ body {
 }
 
 .advantages-services {
-  padding: 80px 85px 71px 85px;
+  padding: 80px 85px 78px 85px;
 }
 
 .item-image {
-  margin: 0 0 30px 0;
+  margin: 0 0 23px 0;
 }
 
 .appointment {
@@ -549,6 +549,7 @@ body {
 
 .social-logo {
   fill: #83b3d3;
+  display: block;
 }
 
 .social-logo:hover {
@@ -565,7 +566,7 @@ body {
 
 .page-footer {
   display: grid;
-  grid-template-columns: 160px 1fr 160px;
+  grid-template-columns: 190px 1fr 160px;
   padding: 45px 70px 35px 70px;
   margin-top: auto;
   height: 120px;
@@ -575,10 +576,11 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  min-width: 140px;
   align-items: center;
   margin: 0;
-  padding: 18px 0;
-  min-width: 140px;
+  padding: 0;
+  padding-left: 11px;
 }
 
 .html-academy-link {
@@ -633,7 +635,7 @@ body {
   color: #ffffff;
   background-color: #6c92ab;
   background-size: cover;
-  padding: 35px 70px 70px 70px;
+  padding: 35px 70px 56px 70px;
 }
 
 .catalog-filter-controls {
@@ -1249,7 +1251,7 @@ body {
   text-align: center;
   color: #000000;
   background-color: #ffffff;
-  padding: 96px 258px 104px 258px;
+  padding: 96px 258px 107px 258px;
 }
 
 .pagination {
