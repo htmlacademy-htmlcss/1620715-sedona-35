@@ -12,7 +12,8 @@
   <body>
     <div class="wrapper">
       <header class="page-header">
-        <a class="header-logo-link" href="index.html">
+        <a class="header-logo-link" aria-label="Переход на главную страницу" href="index.html">
+          <span class="visually-hidden">Переход на главную страницу.</span>
           <img
             src="img/header-logo.svg"
             width="140"
@@ -28,8 +29,8 @@
             <li class="navigation-item">
               <a class="navigation-link" href="#">О Седоне</a>
             </li>
-            <li class="navigation-item navigation-item-current">
-              <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <li class="navigation-item">
+              <a class="navigation-link navigation-link-current">Гостиницы</a>
             </li>
           </ul>
         </nav>
@@ -73,7 +74,7 @@
               </a>
             </li>
             <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="#">Гостиницы</a>
+              <a class="breadcrumbs-link breadcrumbs-link-current">Гостиницы</a>
             </li>
           </ul>
           <section class="filter">
@@ -121,7 +122,7 @@
                         value="Парковка"
                       />
                       <span class="control-mark"></span>
-                      <span class="control-label">Wi-fi</span>
+                      <span class="control-label">Wi-Fi</span>
                     </label>
                   </li>
                 </ul>
@@ -227,8 +228,8 @@
               <option value="popular">Сначала популярные</option>
               <option value="expensive">Сначала дорогие</option>
             </select>
-            <ul class="mode">
-              <li class="mode-list">
+            <ul class="mode-list">
+              <li class="mode-list-item">
                 <a
                   class="mode-tile card-grid-toggle card-grid-toggle-current"
                   href="#"
@@ -256,7 +257,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="mode-list">
+              <li class="mode-list-item">
                 <a class="mode-slides card-grid-toggle" href="#">
                   <span class="visually-hidden">Показать слайд.</span>
                   <svg
@@ -281,7 +282,7 @@
                   </svg>
                 </a>
               </li>
-              <li class="mode-list">
+              <li class="mode-list-item">
                 <a class="mode-list card-grid-toggle" href="#">
                   <span class="visually-hidden">Показать список.</span>
                   <svg
@@ -535,6 +536,7 @@
           target="_blank"
           href="https://htmlacademy.ru/"
         >
+        <span class="visually-hidden"> Ссылка на сайт html academy</span>
           <svg
             class="logo-html-academy"
             aria-hidden="true"
